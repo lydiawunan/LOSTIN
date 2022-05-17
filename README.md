@@ -21,12 +21,12 @@ Specifically,
 - `flow_generation.ipynb` generates random synthesis flows with different lengths.
    - flow_10.csv, flow_15.csv, flow_20.csv, flow_25.csv are the previously generated synthesis flows.
 - `run_abc_syn.py` invokes ABC to produce area and delay, as the ground truth.
-   - The previously generated ground truth are saved in [dataset-ground-truth](https://github.com/lydiawunan/LOSTIN/tree/main/dataset-ground-truth).
+   - The previously generated ground truth files are saved in [dataset-ground-truth](https://github.com/lydiawunan/LOSTIN/tree/main/dataset-ground-truth).
 
 ## Baselines
-- CNN-based model
+- **CNN-based model**
    - Implemented based on [Developing synthesis flows without human knowledge](https://arxiv.org/abs/1804.05714)
-- LSTM-based model
+- **LSTM-based model**
    - Requirements: torchtext 0.6.0
    - Implemented based on [Decision Making in Synthesis cross Technologies using LSTMs
 and Transfer Learning](https://ycunxi.github.io/cunxiyu/papers/MLCAD2020.pdf)
@@ -38,10 +38,11 @@ and Transfer Learning](https://ycunxi.github.io/cunxiyu/papers/MLCAD2020.pdf)
    - Note that the dataset files should be unzipped before running the code.
 
 ## Hybrid GNN models
-1. GNN with a supernode
-2. GNN + LSTM
+- **GNN with a supernode**
+- **GNN + LSTM**
+   - Requirements: Pytorch Geometric, and torchtext 0.6.0
    - How to run:
-      ```bash
+      ```python
       python main_gnn_customized_area.py
       ```
    - Note that the dataset files related to [LSTM](https://github.com/lydiawunan/LOSTIN/tree/main/GNN-LSTM/lstm) should be unzipped before running the code.
