@@ -1,0 +1,14 @@
+,vgraph
+add_inverse_edge,False
+additional edge files,None
+additional node files,None
+binary,False
+download_name,vgraph
+eval metric,rmse
+has_edge_attr,False
+has_node_attr,True
+num classes,-1
+num tasks,1
+split,scaffold
+task type,regression
+version,1
