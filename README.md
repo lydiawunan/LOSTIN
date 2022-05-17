@@ -11,8 +11,8 @@ All considered designs come from [EPFL logic synthesis benchmark suite](https://
 [verilog2graph](https://github.com/lydiawunan/LOSTIN/tree/main/verilog2graph) parses verilog designs into graphs. 
 
 Specifically,
-- `verilog_cleanser.py` removes the symbols incompatible to our parser from the original verilog files
-- `verilog2graph.py` converts the processed verilog files into graphs, which are saved in json files
+- `verilog_cleanser.py` removes the symbols incompatible to our parser from the original verilog files.
+- `verilog2graph.py` converts the processed verilog files into graphs, which are saved in json files.
 
 ### Ground truth (i.e. label) generation
 [dataset-generation](https://github.com/lydiawunan/LOSTIN/tree/main/dataset-generation) generates the ground truth based on the [ABC logic synthesis tool](https://github.com/berkeley-abc/abc).
@@ -31,11 +31,15 @@ Specifically,
    - Implemented based on [Decision Making in Synthesis cross Technologies using LSTMs
 and Transfer Learning](https://ycunxi.github.io/cunxiyu/papers/MLCAD2020.pdf)
    - Data preprocessing: [`data_preprocessing_for_lstm.ipynb`](https://github.com/lydiawunan/LOSTIN/blob/main/data_preprocessing_for_lstm.ipynb)
+   - How to run:
+   ```python
+   python LSTM_area.py
+   ```
 
 ## Hybrid GNN models
 1. GNN with a supernode
 2. GNN + LSTM
    - How to run:
-   '''
+   ```python
    python main_gnn_customized_area.py
-   '''
+   ```
