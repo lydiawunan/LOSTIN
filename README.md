@@ -32,14 +32,16 @@ Specifically,
 and Transfer Learning](https://ycunxi.github.io/cunxiyu/papers/MLCAD2020.pdf)
    - Data preprocessing: [`data_preprocessing_for_lstm.ipynb`](https://github.com/lydiawunan/LOSTIN/blob/main/data_preprocessing_for_lstm.ipynb)
    - How to run:
-   ```python
-   python LSTM_area.py
-   ```
+      ```python
+      python LSTM_area.py
+      ```
+   - Note that the dataset files should be unzipped before running the code.
 
 ## Hybrid GNN models
 1. GNN with a supernode
 2. GNN + LSTM
    - How to run:
-   ```python
-   python main_gnn_customized_area.py
-   ```
+      ```bash
+      python main_gnn_customized_area.py
+      ```
+   - Note that the dataset files related to [LSTM](https://github.com/lydiawunan/LOSTIN/tree/main/GNN-LSTM/lstm) should be unzipped before running the code.
