@@ -1,0 +1,14 @@
+,pita_area
+add_inverse_edge,False
+additional edge files,None
+additional node files,None
+binary,False
+download_name,cdfg_lut
+eval metric,rmae
+has_edge_attr,True
+has_node_attr,True
+num classes,-1
+num tasks,1
+split,scaffold
+task type,regression
+version,1
