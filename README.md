@@ -26,11 +26,16 @@ Specifically,
 ## Baselines
 - **CNN-based model**
    - Implemented based on [Developing synthesis flows without human knowledge](https://arxiv.org/abs/1804.05714)
+   - Data preprocessing: [`cnn_data_gen.py`](https://github.com/lydiawunan/LOSTIN/blob/main/CNN/cnn_data_gen.py)
+   - How to run:
+      ```python
+      python train_cnn.py
+      ```
 - **LSTM-based model**
    - Requirements: torchtext 0.6.0
    - Implemented based on [Decision Making in Synthesis cross Technologies using LSTMs
 and Transfer Learning](https://ycunxi.github.io/cunxiyu/papers/MLCAD2020.pdf)
-   - Data preprocessing: [`data_preprocessing_for_lstm.ipynb`](https://github.com/lydiawunan/LOSTIN/blob/main/data_preprocessing_for_lstm.ipynb)
+   - Data preprocessing: [`data_preprocessing_for_lstm.ipynb`](https://github.com/lydiawunan/LOSTIN/blob/main/LSTM/data_preprocessing_for_lstm.ipynb)
    - How to run:
       ```python
       python LSTM_area.py
@@ -39,6 +44,11 @@ and Transfer Learning](https://ycunxi.github.io/cunxiyu/papers/MLCAD2020.pdf)
 
 ## Hybrid GNN models
 - **GNN with a supernode**
+   - Requirements: Pytorch Geometric
+   - How to run:
+      ```python
+      python main_gnn.py
+      ``` 
 - **GNN + LSTM**
    - Requirements: Pytorch Geometric, and torchtext 0.6.0
    - How to run:
