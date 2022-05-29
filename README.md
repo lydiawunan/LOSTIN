@@ -62,7 +62,7 @@ and Transfer Learning](https://ycunxi.github.io/cunxiyu/papers/MLCAD2020.pdf)
 - If you find LOSTIN useful, please cite our paper:
    ```
    @inproceedings{wu2022lostin,
-      title={LOSTIN: <ins>L</ins>ogic <ins>O</ins>ptimization via <ins>S</ins>patio-<ins>T</ins>emporal <ins>In</ins>formation with Hybrid Graph Models},
+      title={LOSTIN: Logic Optimization via Spatio-Temporal Information with Hybrid Graph Models},
       author={Wu, Nan and Lee, Jiwon and Xie, Yuan and Hao, Cong},
       booktitle={Proceedings of the 33rd IEEE International Conference on Application-specific Systems, Architectures and Processors},
       year={2022},
