@@ -56,3 +56,16 @@ and Transfer Learning](https://ycunxi.github.io/cunxiyu/papers/MLCAD2020.pdf)
       python main_gnn_customized_area.py
       ```
    - Note that the dataset files related to [LSTM](https://github.com/lydiawunan/LOSTIN/tree/main/GNN-LSTM/lstm) should be unzipped before running the code.
+
+## Contact and Citation
+- If there is any question, please shoot an email to nanwu@ucsb.edu
+- If you find LOSTIN useful, please cite our paper:
+   ```
+   @inproceedings{wu2022lostin,
+      title={LOSTIN: <ins>L</ins>ogic <ins>O</ins>ptimization via <ins>S</ins>patio-<ins>T</ins>emporal <ins>In</ins>formation with Hybrid Graph Models},
+      author={Wu, Nan and Lee, Jiwon and Xie, Yuan and Hao, Cong},
+      booktitle={Proceedings of the 33rd IEEE International Conference on Application-specific Systems, Architectures and Processors},
+      year={2022},
+      organization={IEEE}
+   }
+   ```
